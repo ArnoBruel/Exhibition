@@ -15,6 +15,10 @@
   color: #31538F;
 }
 
+.reveal .text-green {
+  color: #6aa84f;
+}
+
 div.slide-background.mainFeed{
   background-image: url("../img/IGEMINI_couleur.png");
   background-repeat: no-repeat;
@@ -56,6 +60,10 @@ div.slide-background.bg-darkpurple{
   font-size: .5em;
 }
 
+.reveal .smallmedium_text{
+  font-size: .6em;
+}
+
 .reveal .medium_text{
   font-size: .7em;
 }
@@ -82,6 +90,36 @@ div.slide-background.bg-darkpurple{
 .titre-saviezvous{
   position: absolute;
   top: -250px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous2{
+  position: absolute;
+  top: -110px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous3{
+  position: absolute;
+  top: -160px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous4{
+  position: absolute;
+  top: -200px;
   left: 350px;
   border: 3px solid #edd690;
   background: #edd690;
@@ -116,6 +154,20 @@ div.slide-background.bgastro2 {
   background-position: center;
 }
 
+div.slide-background.bgastro3 {
+  background-image: url('../img/astro3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro4 {
+  background-image: url('../img/astro4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .posastro{
   margin-top: 15rem;
   margin-left: -15rem;
@@ -136,6 +188,32 @@ div.slide-background.bgastro2 {
   padding: 20px;
   width: 500px;
   height: 220px;
+}
+
+.posastro3{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 310px;
+  position: relative;
+  bottom: 300px;
+}
+
+.posastro4{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  left:1050px;
 }
 
 .posimgdna{
@@ -167,6 +245,12 @@ div.slide-background.bgastro2 {
   width: 500px;
 }
 
+.postextcosmos3{
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+}
+
 .posbulletscosmos{
   position: relative;
   bottom: 100px;
@@ -183,15 +267,7 @@ div.slide-background.bgastro2 {
  text-align: left
 }
 
-.titre-saviezvous2{
-  position: absolute;
-  top: -110px;
-  left: 350px;
-  border: 3px solid #edd690;
-  background: #edd690;
-  text-justify;
-  font-family: Arial Narrow;
-}
+
 
 .posphone{
   position: relative;
@@ -206,8 +282,93 @@ div.slide-background.bgastro2 {
   width: 500px;
 }
 
+.postextrecy{
+  position: absolute;
+  top: 120px;
+  width: 900px;
+}
+
+.postextrecy2{
+  position: relative;
+  bottom: -200px;
+  width: 900px;
+}
+
 .poseco{
   position: relative;
   bottom: 200px;
   left: 200px;
+}
+
+.posbacterie1{
+    position: relative;
+    bottom: 320px;
+    left: 860px;
+    width: 2em;
+}
+
+.posbacterie2{
+    position: relative;
+    bottom: 190px;
+    left: 400px;
+    width: 2em;
+}
+
+.postextmelissa{
+  position: absolute;
+  top: 190px;
+  right: 0px;
+  width: 600px;
+}
+
+.postextmelissa2{
+  position: relative;
+  top: -60px;
+  width: 600px;
+  left: 350px;
+}
+
+.posspacetech1{
+position: relative;
+    top: 20px;
+    right: 0px;
+}
+
+.posspacetech2{
+position: relative;
+    top: 30px;
+    right: 0px;
+}
+
+.postextsaviezrecycling{
+  position: relative;
+  top: 90px;
+  right: 0px;
+}
+.poscascos{
+    position: relative;
+    bottom: 420px;
+    left: 150px;
+    height:100px;
+    width:auto;
+}
+.possneakers{
+    left: 150px;
+    position: relative;
+    bottom: 400px;
+    height:100px;
+    width:auto;
+}
+
+.posthermo{
+    left: 200px;
+    position: relative;
+    bottom: 350px;
+    height: 100px;
+    width: auto;
+}
+
+.sizerecycling{
+height: 12em;
+width:auto;
 }
