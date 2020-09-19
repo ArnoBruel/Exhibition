@@ -40,6 +40,16 @@ div.slide-background.mainFeed{
   background-color: #E2E5EE;
 }
 
+.bg-lightgrey{
+background-color: #f2f2f2ff;
+  border-color: #aeabab;
+}
+
+.bg-lightpurple1{
+background-color: #ead1dc;
+border-color: #c97ab7;
+}
+
 div.slide-background.bg-lightpurple{
     background-color: #ead1dc
 }
@@ -127,6 +137,16 @@ div.slide-background.bg-darkpurple{
   font-family: Arial Narrow;
 }
 
+.titre-saviezvous5{
+  position: absolute;
+  top: -115px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
 .texte-saviezvous{
  font-family: Arial Narrow;
  font-size: 86px;
@@ -168,6 +188,28 @@ div.slide-background.bgastro4 {
   background-position: center;
 }
 
+div.slide-background.bgastro5 {
+  background-image: url('../img/astro5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro6 {
+  background-image: url('../img/astro6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro7 {
+  background-image: url('../img/astro7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .posastro{
   margin-top: 15rem;
   margin-left: -15rem;
@@ -177,6 +219,8 @@ div.slide-background.bgastro4 {
   padding: 20px;
   width: 500px;
   height: 400px;
+  position: absolute;
+  left: 10em;
 }
 
 .posastro2{
@@ -188,6 +232,8 @@ div.slide-background.bgastro4 {
   padding: 20px;
   width: 500px;
   height: 220px;
+  position: absolute;
+  left: 10em;
 }
 
 .posastro3{
@@ -201,6 +247,7 @@ div.slide-background.bgastro4 {
   height: 310px;
   position: relative;
   bottom: 300px;
+  left: 10em;
 }
 
 .posastro4{
@@ -212,19 +259,34 @@ div.slide-background.bgastro4 {
   padding: 20px;
   width: 500px;
   height: 400px;
-  position: relative;
-  left:1050px;
+  position: absolute;
+  right:0em;
+}
+
+.posastro7{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  left: 10em;
 }
 
 .posimgdna{
-  position: relative;
-  left: 450px;
-  bottom: 0px;
+    position: absolute;
+    z-index: 2;
+    top: 6.1rem;
+    left: 40.5%;
 }
 
 .poscosmos{
-  position: relative;
-  left: 450px;
+  position: absolute;
+  right: 2rem;
+  bottom: -45vh;
 }
 
 .poscosmos2{
@@ -234,9 +296,8 @@ div.slide-background.bgastro4 {
 
 .postextcosmos{
   position: absolute;
-  bottom: 100px;
-  left: 0px;
-}
+  bottom: -82vh;
+8}
 
 .postextcosmos2{
   position: absolute;
@@ -246,9 +307,8 @@ div.slide-background.bgastro4 {
 }
 
 .postextcosmos3{
-  position: absolute;
-  bottom: 50px;
-  left: 0px;
+  position: relative;
+  top:9em;
 }
 
 .posbulletscosmos{
@@ -371,4 +431,88 @@ position: relative;
 .sizerecycling{
 height: 12em;
 width:auto;
+}
+
+.reveal .arnolemeilleur{
+padding-left:3rem !important;
+}
+
+.arnolemeilleur p{
+margin-bottom: 0.25rem;
+}
+
+.routine{
+margin-top:0
+}
+
+.navigate-down{
+ amimation: bounce-down 2s 50 both ease-out;
+}
+
+.postextbio{
+position:relative;
+top: 10em;
+width: 30em;
+}
+.posbact{
+    position: relative;
+    top: 2em;
+    left: 20.5em;
+    width: 50px;
+}
+
+.posbact2{
+    position: relative;
+    top: 4em;
+    right: 0.5em;
+    width: 50px;
+}
+
+.posbiom{
+    bottom: 9em;
+    width: 17em;
+    position: relative;
+    right: 0.5em;
+}
+
+.posigemi{
+    top: -7em;
+    width: 17em;
+    position: relative;
+    left: 15em;
+}
+
+.poscomp{
+    bottom: 20em;
+    width: 17em;
+    position: relative;
+    left: 33em;
+}
+
+.posbriques{
+right: 2em;
+    bottom: 14em;
+    width: 17em;
+    position: relative;
+}
+
+.poslogoi{
+right: 2em;
+    bottom: 11em;
+    width: 17em;
+    position: relative;
+}
+
+.poscomplement{
+    left: 15em;
+    bottom: 19em;
+    width: 17em;
+    position: relative;
+}
+
+.posmerci{
+    left: 12em;
+    bottom: 6em;
+    width: 17em;
+    position: relative;
 }
