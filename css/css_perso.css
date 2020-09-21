@@ -15,6 +15,10 @@
   color: #31538F;
 }
 
+.reveal .text-green {
+  color: #6aa84f;
+}
+
 div.slide-background.mainFeed{
   background-image: url("../img/IGEMINI_couleur.png");
   background-repeat: no-repeat;
@@ -36,6 +40,27 @@ div.slide-background.mainFeed{
   background-color: #E2E5EE;
 }
 
+.bg-lightgrey{
+background-color: #f2f2f2ff;
+  border-color: #aeabab;
+}
+
+.bg-lightpurple1{
+background-color: #ead1dc;
+border-color: #c97ab7;
+}
+
+div.slide-background.bg-lightpurple{
+    background-color: #ead1dc
+}
+
+div.slide-background.bg-darkyellow{
+    background-color: #edd690
+}
+
+div.slide-background.bg-darkpurple{
+    background-color: #d9d2e9ff
+}
 .vertical_padding{
   padding-top: 2px;
   padding-bottom: 2px;
@@ -45,7 +70,464 @@ div.slide-background.mainFeed{
   font-size: .5em;
 }
 
+.reveal .smallmedium_text{
+  font-size: .6em;
+}
+
+.reveal .medium_text{
+  font-size: .7em;
+}
+
 .align-item{
   -ms-flex-align: center !important;
   align-items: center !important;
+}
+
+.clickable{
+  cursor: pointer;
+  outline: none;
+}
+
+.clickable:hover{
+  transform: scale(1.2);
+}
+
+
+.postopleft{
+ left: 0; /* new */
+ top: 0; /* new */
+ position: absolute; /* new */
+}
+.titre-savoirplus{
+ margin-top: 2rem;
+ margin-left:250px;
+ text-align:left;
+}
+
+.texte-savoirplus{
+ margin-top:3rem;
+}
+
+.titre-saviezvous{
+  position: absolute;
+  top: -250px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous2{
+  position: absolute;
+  top: -110px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous3{
+  position: absolute;
+  top: -160px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous4{
+  position: absolute;
+  top: -200px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.titre-saviezvous5{
+  position: absolute;
+  top: -115px;
+  left: 350px;
+  border: 3px solid #edd690;
+  background: #edd690;
+  text-justify;
+  font-family: Arial Narrow;
+}
+
+.texte-saviezvous{
+ font-family: Arial Narrow;
+ font-size: 86px;
+}
+
+div.slide-background.bordure {
+ border: 15px solid #edd690;
+}
+
+.reveal .slides section .fragment.highlight-green.visible {
+		color: #429c27;
+}
+
+div.slide-background.bgastro1 {
+  background-image: url('../img/astro1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro2 {
+  background-image: url('../img/astro2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro3 {
+  background-image: url('../img/astro3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro4 {
+  background-image: url('../img/astro4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro5 {
+  background-image: url('../img/astro5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro6 {
+  background-image: url('../img/astro6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.slide-background.bgastro7 {
+  background-image: url('../img/astro7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.posastro{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 10em;
+}
+
+.posastro2{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 220px;
+  position: absolute;
+  left: 10em;
+}
+
+.posastro3{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 310px;
+  position: relative;
+  bottom: 300px;
+  left: 10em;
+}
+
+.posastro4{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  right:0em;
+}
+
+.posastro7{
+  margin-top: 15rem;
+  margin-left: -15rem;
+  border: 3px solid #E2E5EE;
+  border-radius: 25px;
+  background: #E2E5EE;
+  padding: 20px;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  left: 10em;
+}
+
+.posimgdna{
+    position: absolute;
+    z-index: 2;
+    top: 6.1rem;
+    left: 41.2%;
+}
+
+.poscosmos{
+  position: absolute;
+  right: 2rem;
+}
+
+.poscosmos2{
+  position: relative;
+  right: 400px;
+}
+
+.postextcosmos{
+  position: absolute;
+  top: 15em;
+8}
+
+.posMELISSA2{
+    position:relative;
+    bottom:9em;
+    }
+
+.postextcosmos2{
+  position: absolute;
+  bottom: 150px;
+  right: 0px;
+  width: 500px;
+}
+
+.postextcosmos3{
+  position: relative;
+  top:9em;
+}
+
+.posbulletscosmos{
+  position: relative;
+  bottom: 100px;
+  left: 0px;
+}
+
+.poscutpaste{
+    position: absolute;
+    top: 50px;
+  left: 100px;
+}
+
+.alignleft{
+ text-align: left
+}
+
+
+
+.posphone{
+  position: relative;
+  right: 450px;
+  bottom: 0px;
+}
+
+.postextphone{
+  position: absolute;
+  top: 120px;
+  right: 0px;
+  width: 500px;
+}
+
+.postextrecy{
+  position: absolute;
+  top: 120px;
+  width: 900px;
+}
+
+.postextrecy2{
+  position: relative;
+  bottom: -200px;
+  width: 900px;
+}
+
+.poseco{
+  position: relative;
+  bottom: 200px;
+  left: 200px;
+}
+
+.posbacterie1{
+    position: relative;
+    bottom: 320px;
+    left: 860px;
+    width: 2em;
+}
+
+.posbacterie2{
+    position: relative;
+    bottom: 190px;
+    left: 400px;
+    width: 2em;
+}
+
+.postextmelissa{
+  position: absolute;
+  top: 190px;
+  right: 0px;
+  width: 600px;
+}
+
+.postextmelissa2{
+  position: relative;
+  top: -60px;
+  width: 600px;
+  left: 350px;
+}
+
+.posspacetech1{
+position: relative;
+    top: 20px;
+    right: 0px;
+}
+
+.posspacetech2{
+position: relative;
+    top: 30px;
+    right: 0px;
+}
+
+.postextsaviezrecycling{
+  position: relative;
+  top: 90px;
+  right: 0px;
+}
+.poscascos{
+    position: relative;
+    bottom: 420px;
+    left: 150px;
+    height:100px;
+    width:auto;
+}
+.possneakers{
+    left: 150px;
+    position: relative;
+    bottom: 400px;
+    height:100px;
+    width:auto;
+}
+
+.posthermo{
+    left: 200px;
+    position: relative;
+    bottom: 350px;
+    height: 100px;
+    width: auto;
+}
+
+.sizerecycling{
+height: 12em;
+width:auto;
+}
+
+.reveal .arnolemeilleur{
+padding-left: 4rem !important;
+}
+
+.arnolemeilleur p{
+margin-bottom: 0.25rem;
+}
+
+.routine{
+margin-top:0
+}
+
+.navigate-down{
+ amimation: bounce-down 2s 50 both ease-out;
+}
+
+.postextbio{
+position:relative;
+top: 10em;
+width: 30em;
+}
+.posbact{
+    position: relative;
+    top: 2em;
+    left: 20.5em;
+    width: 50px;
+}
+
+.posbact2{
+    position: relative;
+    top: 4em;
+    right: 0.5em;
+    width: 50px;
+}
+
+.posbiom{
+    bottom: 9em;
+    width: 17em;
+    position: relative;
+    right: 0.5em;
+}
+
+.posigemi{
+    top: -7em;
+    width: 17em;
+    position: relative;
+    left: 15em;
+}
+
+.poscomp{
+    bottom: 20em;
+    width: 17em;
+    position: relative;
+    left: 32em;
+}
+
+.posbriques{
+right: 2em;
+    bottom: 14em;
+    width: 17em;
+    position: relative;
+}
+
+.poslogoi{
+right: 2em;
+    bottom: 11em;
+    width: 17em;
+    position: relative;
+}
+
+.poscomplement{
+    left: 15em;
+    bottom: 19em;
+    width: 17em;
+    position: relative;
+}
+
+.posmerci{
+    left: 12em;
+    bottom: 6em;
+    width: 17em;
+    position: relative;
 }
